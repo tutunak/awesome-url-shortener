@@ -48,6 +48,7 @@
 * [url1.io](https://url1.io) - Free URL shortener
 * [v.gd](https://v.gd)
 * [vo.la](https://vo.la/) - Korean URL Shortener Service
+* [xUrl.app](https://xurl.app) - Simple Link Shortener - Also offers 📄 Pastes & 📁 File uploads - No Login Required.
 * [yaso.su](https://yaso.su/)
 * [zlnk.com](https://zlnk.com/) - Smart Link management and URL shortner
 
