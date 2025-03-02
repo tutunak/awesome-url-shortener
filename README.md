@@ -29,6 +29,7 @@
 * [oe.cd](https://oe.cd/) - Only OECD-related URLs can be shortened on this website
 * [Ow.ly](https://ow.ly)
 * [Pxl](https://www.pxl.to/) - Privacy-friendly (GDPR), offers URL shortening, QR codes, Microsites and retargeting pixels.
+* [qryptic.io](https://qryptic.io)
 * [rebrandly.com](https://rebrandly.com)
 * [reduced.to](https://reduced.to)
 * [refer.is](https://refer.is/) - Link Shortener, QR Codes, and Click Analytics
