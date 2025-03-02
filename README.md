@@ -25,6 +25,7 @@
 * [LinkHuddle](https://linkhuddle.com/) - Huddle multiple links in one link
 * [LinkSplit](https://linksplit.io/url-shortener)
 * [lstu.fr](https://lstu.fr/) - Let's shorten that url
+* [Lua.sh](https://www.lua.sh) - Next-generation, and scalable URL shortener designed for modern teams
 * [name.com](https://www.name.com/branded-url-shortener) - Powered by bli.nk
 * [oe.cd](https://oe.cd/) - Only OECD-related URLs can be shortened on this website
 * [Ow.ly](https://ow.ly)
@@ -61,6 +62,7 @@
 * [kes.im](https://kes.im) - No-log URL shortener works on top of Cloudflare Workers.
 * [kutt.it](https://kutt.it) - Looks to both be a managed service, and self-hosted option, due to being [open source on GitHub](https://github.com/thedevs-network/kutt)
 * [lstu.fr](https://framagit.org/fiat-tux/hat-softwares/lstu/) - Another open source link shortener that provides an official instance at the same time
+* [Lua.sh](https://github.com/luadotsh/lua) - Open-source, next-generation, and scalable URL shortener designed for modern teams.
 * [Polr](https://polrproject.org) - a quick, modern, and open-source link shortener. It allows you to host your own URL shortener, to brand your URLs, and to gain control over your data.
 * [pygmy](https://github.com/amitt001/pygmy) - An open-source, feature rich & extensible url-shortener + analytics written in Python.
 * [reduced.to](https://reduced.to) - Open-source user-friendly URL shortener with powerful analytics and management features.
