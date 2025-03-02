@@ -18,6 +18,7 @@
 * [gg.gg](https://gg.gg)
 * [han.gl](https://han.gl) - Korean URL Shortener Service
 * [is.gd](https://is.gd)
+* [kes.im](https://kes.im)
 * [KurzeLinks.de](https://kurzelinks.de) - Link shortener based in Germany.
 * [kutt.it](https://kutt.it)
 * [kub.sh](https://kub.sh)
@@ -52,6 +53,7 @@
 
 * [Dub.co](https://dub.co) - Open-source link management infrastructure
 * [Eastlake](https://github.com/Likenttt/eastlake-cloudflare-worker-short-url) - A short url system based on cloudflare worker.
+* [kes.im](https://kes.im)
 * [kutt.it](https://kutt.it) - Looks to both be a managed service, and self-hosted option, due to being [open source on GitHub](https://github.com/thedevs-network/kutt)
 * [lstu.fr](https://framagit.org/fiat-tux/hat-softwares/lstu/) - Another open source link shortener that provides an official instance at the same time
 * [Polr](https://polrproject.org) - a quick, modern, and open-source link shortener. It allows you to host your own URL shortener, to brand your URLs, and to gain control over your data.
