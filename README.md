@@ -20,6 +20,7 @@
 * [is.gd](https://is.gd)
 * [KurzeLinks.de](https://kurzelinks.de) - Link shortener based in Germany.
 * [kutt.it](https://kutt.it)
+* [kub.sh](https://kub.sh)
 * [LinkHuddle](https://linkhuddle.com/) - Huddle multiple links in one link
 * [LinkSplit](https://linksplit.io/url-shortener)
 * [lstu.fr](https://lstu.fr/) - Let's shorten that url
