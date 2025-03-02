@@ -18,7 +18,7 @@
 * [gg.gg](https://gg.gg)
 * [han.gl](https://han.gl) - Korean URL Shortener Service
 * [is.gd](https://is.gd)
-* [kes.im](https://kes.im)
+* [kes.im](https://kes.im) - No-log URL shortener works on top of Cloudflare Workers.
 * [KurzeLinks.de](https://kurzelinks.de) - Link shortener based in Germany.
 * [kutt.it](https://kutt.it)
 * [kub.sh](https://kub.sh)
@@ -30,6 +30,7 @@
 * [Ow.ly](https://ow.ly)
 * [rebrandly.com](https://rebrandly.com)
 * [reduced.to](https://reduced.to)
+* [refer.is](https://refer.is/) - Link Shortener, QR Codes, and Click Analytics
 * [rip.to](https://rip.to)
 * [san.aq](https://san.aq) - scott's url shortener (usable with `curl`)
 * [short.io](https://short.io)
@@ -53,12 +54,13 @@
 
 * [Dub.co](https://dub.co) - Open-source link management infrastructure
 * [Eastlake](https://github.com/Likenttt/eastlake-cloudflare-worker-short-url) - A short url system based on cloudflare worker.
-* [kes.im](https://kes.im)
+* [kes.im](https://kes.im) - No-log URL shortener works on top of Cloudflare Workers.
 * [kutt.it](https://kutt.it) - Looks to both be a managed service, and self-hosted option, due to being [open source on GitHub](https://github.com/thedevs-network/kutt)
 * [lstu.fr](https://framagit.org/fiat-tux/hat-softwares/lstu/) - Another open source link shortener that provides an official instance at the same time
 * [Polr](https://polrproject.org) - a quick, modern, and open-source link shortener. It allows you to host your own URL shortener, to brand your URLs, and to gain control over your data.
 * [pygmy](https://github.com/amitt001/pygmy) - An open-source, feature rich & extensible url-shortener + analytics written in Python.
 * [reduced.to](https://reduced.to) - Open-source user-friendly URL shortener with powerful analytics and management features.
+* [refer.is](https://refer.is/) - Link Shortener, QR Codes, and Click Analytics
 * [san.aq](https://github.com/neutronscott/sanaq) - Open-source URL shortener with an HTTP API to shorten long url with curl.
 * [shlink](https://shlink.io)
 * [Slug](https://github.com/pheralb/slug)
