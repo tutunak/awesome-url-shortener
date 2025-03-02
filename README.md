@@ -41,6 +41,7 @@
 * [Tiny URL](https://tiny.cc)
 * [T.LY](https://t.ly)
 * [urlr.me](https://urlr.me/en) - Reliable URL shortener that provide an API
+* [url1.io](https://url1.io) - Free URL shortener
 * [v.gd](https://v.gd)
 * [vo.la](https://vo.la/) - Korean URL Shortener Service
 * [yaso.su](https://yaso.su/)
