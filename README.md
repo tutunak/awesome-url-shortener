@@ -15,7 +15,6 @@
 * [cutt.ly](https://cutt.ly)
 * [Dub.co](https://dub.co)
 * [fox.ly](https://foxlyme.com/) - Optimize your URL
-* [gg.gg](https://gg.gg)
 * [Go2ULink](https://go2u.link/) - Private URL Shortener with Chorme Extension (https://www.go2u.link/Extension)
 * [han.gl](https://han.gl) - Korean URL Shortener Service
 * [is.gd](https://is.gd)
