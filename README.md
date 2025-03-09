@@ -28,7 +28,6 @@
 * [qryptic.io](https://qryptic.io)
 * [rebrandly.com](https://rebrandly.com)
 * [refer.is](https://refer.is/) - Link Shortener, QR Codes, and Click Analytics
-* [rip.to](https://rip.to)
 * [san.aq](https://san.aq) - scott's url shortener (usable with `curl`)
 * [s.ee](https://s.ee) - Premium URL Shortener with analytics
 * [short.reus.nc](https://short.reus.nc) - Reus's URL shortener - hosted in France - API available.
