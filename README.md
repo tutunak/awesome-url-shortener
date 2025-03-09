@@ -10,7 +10,6 @@
 * [bit.ly](https://bitly.com)
 * [bitly.kr](https://bitly.kr) - Korean URL Shortener Service
 * [bl.ink](https://www.bl.ink)
-* [buff.ly](https://buff.ly)
 * [clicky.me](https://clicky.me)
 * [cutt.ly](https://cutt.ly)
 * [Dub.co](https://dub.co)
