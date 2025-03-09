@@ -33,7 +33,6 @@
 * [Pxl](https://www.pxl.to/) - Privacy-friendly (GDPR), offers URL shortening, QR codes, Microsites and retargeting pixels.
 * [qryptic.io](https://qryptic.io)
 * [rebrandly.com](https://rebrandly.com)
-* [reduced.to](https://reduced.to)
 * [refer.is](https://refer.is/) - Link Shortener, QR Codes, and Click Analytics
 * [rip.to](https://rip.to)
 * [san.aq](https://san.aq) - scott's url shortener (usable with `curl`)
