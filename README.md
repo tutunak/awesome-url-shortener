@@ -8,14 +8,11 @@
 * [sor.bz](https://sor.bz) - free customizable url shortener.
 * [73.nu](https://shorturl.73.nu) - Also offers LinkHub and Pastebin
 * [bit.ly](https://bitly.com)
-* [bitly.kr](https://bitly.kr) - Korean URL Shortener Service
 * [bl.ink](https://www.bl.ink)
-* [buff.ly](https://buff.ly)
 * [clicky.me](https://clicky.me)
 * [cutt.ly](https://cutt.ly)
 * [Dub.co](https://dub.co)
 * [fox.ly](https://foxlyme.com/) - Optimize your URL
-* [gg.gg](https://gg.gg)
 * [Go2ULink](https://go2u.link/) - Private URL Shortener with Chorme Extension (https://www.go2u.link/Extension)
 * [han.gl](https://han.gl) - Korean URL Shortener Service
 * [is.gd](https://is.gd)
@@ -23,19 +20,14 @@
 * [KurzeLinks.de](https://kurzelinks.de) - Link shortener based in Germany.
 * [kutt.it](https://kutt.it)
 * [kub.sh](https://kub.sh)
-* [LinkHuddle](https://linkhuddle.com/) - Huddle multiple links in one link
 * [LinkSplit](https://linksplit.io/url-shortener)
-* [lstu.fr](https://lstu.fr/) - Let's shorten that url
 * [Lua.sh](https://www.lua.sh) - Next-generation, and scalable URL shortener designed for modern teams
 * [name.com](https://www.name.com/branded-url-shortener) - Powered by bli.nk
 * [oe.cd](https://oe.cd/) - Only OECD-related URLs can be shortened on this website
 * [Ow.ly](https://ow.ly)
-* [Pxl](https://www.pxl.to/) - Privacy-friendly (GDPR), offers URL shortening, QR codes, Microsites and retargeting pixels.
 * [qryptic.io](https://qryptic.io)
 * [rebrandly.com](https://rebrandly.com)
-* [reduced.to](https://reduced.to)
 * [refer.is](https://refer.is/) - Link Shortener, QR Codes, and Click Analytics
-* [rip.to](https://rip.to)
 * [s.ee](https://s.ee) - Premium URL Shortener with analytics
 * [short.reus.nc](https://short.reus.nc) - Reus's URL shortener - hosted in France - API available.
 * [short.io](https://short.io)
