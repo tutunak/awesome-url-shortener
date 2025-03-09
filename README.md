@@ -23,7 +23,6 @@
 * [KurzeLinks.de](https://kurzelinks.de) - Link shortener based in Germany.
 * [kutt.it](https://kutt.it)
 * [kub.sh](https://kub.sh)
-* [LinkHuddle](https://linkhuddle.com/) - Huddle multiple links in one link
 * [LinkSplit](https://linksplit.io/url-shortener)
 * [lstu.fr](https://lstu.fr/) - Let's shorten that url
 * [Lua.sh](https://www.lua.sh) - Next-generation, and scalable URL shortener designed for modern teams
