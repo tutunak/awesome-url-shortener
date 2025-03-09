@@ -25,7 +25,6 @@
 * [kub.sh](https://kub.sh)
 * [LinkHuddle](https://linkhuddle.com/) - Huddle multiple links in one link
 * [LinkSplit](https://linksplit.io/url-shortener)
-* [lstu.fr](https://lstu.fr/) - Let's shorten that url
 * [Lua.sh](https://www.lua.sh) - Next-generation, and scalable URL shortener designed for modern teams
 * [name.com](https://www.name.com/branded-url-shortener) - Powered by bli.nk
 * [oe.cd](https://oe.cd/) - Only OECD-related URLs can be shortened on this website
