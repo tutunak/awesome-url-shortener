@@ -66,6 +66,7 @@
 * [Slug](https://github.com/pheralb/slug)
 * [Sink](https://github.com/ccbikai/sink) - ⚡ A Simple / Speedy / Secure Link Shortener with Analytics, 100% run on Cloudflare.
 * [yourls](https://yourls.org)
+* [urls.ac](https://urls.ac) - A simple URL shortener that supports both regular URLs and true fifty-fifty links.
 
 ## Deprecated Services
 
