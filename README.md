@@ -48,6 +48,7 @@
 * [xUrl.app](https://xurl.app) - Simple Link Shortener - Also offers 📄 Pastes & 📁 File uploads - No Login Required.
 * [yaso.su](https://yaso.su/)
 * [zlnk.com](https://zlnk.com/) - Smart Link management and URL shortner
+* [Zu.lk](https://zu.lk) - Zulk is a premium, AI-first URL shortener featuring an MCP for seamless integration with AI tools ✨
 
 ## Self Hosting Opensource
 
