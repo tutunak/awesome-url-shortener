@@ -1,0 +1,48 @@
+baseURL = "https://shorteners.tutunak.com/"
+locale = "en-us"
+title = "Awesome URL Shorteners"
+enableRobotsTXT = true
+enableGitInfo = false
+disableKinds = ["taxonomy", "term", "rss"]
+
+[params]
+  description = "A curated directory of URL shorteners: hosted services, self-hostable open-source projects, and the ones that shut down."
+  tagline = "Every URL shortener worth knowing — hosted, self-hosted, and gone."
+  repo = "https://github.com/tutunak/awesome-url-shortener"
+  upstream = "https://github.com/738/awesome-url-shortener"
+  # Source of truth for every entry on this site. Paths are relative to the project root.
+  readmePath = "README.md"
+  contributing = "https://github.com/tutunak/awesome-url-shortener/blob/master/CONTRIBUTING.md"
+
+# Presentation for each README section. `match` is the README heading; anything
+# not listed here still renders, using the heading text as-is.
+[[params.sections]]
+  match = "Url Shortener Services"
+  id = "hosted"
+  title = "Hosted services"
+  nav = "Hosted"
+  blurb = "Ready to use — sign up, paste a long link, done."
+
+[[params.sections]]
+  match = "Self Hosting Opensource"
+  id = "self-hosted"
+  title = "Self-hosted & open source"
+  nav = "Self-hosted"
+  blurb = "Run it on your own domain and keep the click data yourself."
+
+[[params.sections]]
+  match = "Deprecated Services"
+  id = "deprecated"
+  title = "Deprecated & discontinued"
+  nav = "Deprecated"
+  blurb = "Kept on record so old links and old blog posts still make sense."
+  muted = true
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[minify]
+  disableXML = true
+
+[caches.assets]
+  maxAge = "1h"

@@ -1,0 +1,65 @@
+{{- /*
+  Parses the repository README into structured data so the list itself stays the
+  single source of truth. Returns a slice of sections:
+
+    { id, title, nav, blurb, muted, heading, items: [ { name, url, desc, host } ] }
+
+  A README heading with no list items under it (e.g. "Contributing") is skipped.
+*/ -}}
+{{- $path := site.Params.readmePath | default "README.md" -}}
+{{- $readme := "" -}}
+{{- if fileExists $path -}}
+  {{- $readme = os.ReadFile $path -}}
+{{- else -}}
+  {{- errorf "parse-readme: %q not found — set params.readmePath in hugo.toml" $path -}}
+{{- end -}}
+
+{{- $itemRe := `^\*\s+\[([^\]]+)\]\(([^)\s]+)\)\s*(?:[-–]\s+(.*))?$` -}}
+{{- $sections := slice -}}
+
+{{- range after 1 (split $readme "\n## ") -}}
+  {{- $lines := split . "\n" -}}
+  {{- $heading := index $lines 0 | strings.TrimSpace -}}
+  {{- $items := slice -}}
+
+  {{- range after 1 $lines -}}
+    {{- $line := strings.TrimSpace . -}}
+    {{- if strings.HasPrefix $line "* " -}}
+      {{- with findRESubmatch $itemRe $line 1 -}}
+        {{- $g := index . 0 -}}
+        {{- $url := index $g 2 -}}
+        {{- $host := "" -}}
+        {{- with urls.Parse $url -}}
+          {{- $host = strings.TrimPrefix "www." .Host -}}
+          {{- if eq $host "github.com" -}}
+            {{- $host = printf "github.com%s" (path.Dir .Path) -}}
+          {{- end -}}
+        {{- end -}}
+        {{- $items = $items | append (dict
+              "name" (index $g 1)
+              "url" $url
+              "desc" (index $g 3 | strings.TrimSpace)
+              "host" $host) -}}
+      {{- else -}}
+        {{- warnf "parse-readme: could not parse list item %q" $line -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- if $items -}}
+    {{- $cfg := dict -}}
+    {{- range site.Params.sections -}}
+      {{- if eq .match $heading -}}{{- $cfg = . -}}{{- end -}}
+    {{- end -}}
+    {{- $sections = $sections | append (dict
+          "id" ($cfg.id | default (urlize $heading))
+          "title" ($cfg.title | default $heading)
+          "nav" ($cfg.nav | default ($cfg.title | default $heading))
+          "blurb" ($cfg.blurb | default "")
+          "muted" (eq true $cfg.muted)
+          "heading" $heading
+          "items" $items) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return $sections -}}

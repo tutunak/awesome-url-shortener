@@ -1,0 +1,27 @@
+{
+  "name": "awesome-url-shorteners",
+  "version": "1.0.0",
+  "description": "Hugo site for the awesome-url-shortener list, deployed to Cloudflare Workers",
+  "scripts": {
+    "dev": "hugo server --buildDrafts --disableFastRender",
+    "build": "hugo --gc --minify",
+    "preview": "npm run build && wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tutunak/awesome-url-shortener.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tutunak/awesome-url-shortener/issues"
+  },
+  "homepage": "https://github.com/tutunak/awesome-url-shortener#readme",
+  "devDependencies": {
+    "hugo-extended": "^0.164.0",
+    "wrangler": "^4.125.0"
+  },
+  "private": true
+}

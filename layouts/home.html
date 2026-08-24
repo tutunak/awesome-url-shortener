@@ -1,0 +1,87 @@
+{{ define "main" }}
+{{ $sections := partialCached "parse-readme.html" . }}
+{{ $total := 0 }}
+{{ range $sections }}{{ $total = add $total (len .items) }}{{ end }}
+
+{{/* Which sections does each entry appear in? Powers the cross-reference badges. */}}
+{{ $seen := dict }}
+{{ range $s := $sections }}
+  {{ range .items }}
+    {{ $k := lower .name }}
+    {{ $seen = merge $seen (dict $k (append (slice $s.id) (index $seen $k | default slice))) }}
+  {{ end }}
+{{ end }}
+
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Awesome list</p>
+    <h1>URL shorteners,<br>all in one place</h1>
+    <p class="lede">{{ site.Params.tagline }}</p>
+    <p class="stats">
+      {{ range $i, $s := $sections }}{{ if $i }}<span aria-hidden="true">·</span>{{ end }}<a href="#{{ .id }}"><strong>{{ len .items }}</strong> {{ lower .nav }}</a>{{ end }}
+    </p>
+  </div>
+</header>
+
+<div class="toolbar">
+  <div class="wrap toolbar-inner">
+    <div class="search">
+      <label class="sr-only" for="q">Search {{ $total }} shorteners</label>
+      <input id="q" type="search" autocomplete="off" spellcheck="false"
+             placeholder="Search {{ $total }} shorteners — try “analytics”, “QR”, “self-hosted”">
+      <button id="clear" type="button" hidden aria-label="Clear search">✕</button>
+    </div>
+    <p id="count" class="count" role="status" aria-live="polite"></p>
+    <button id="theme" type="button" class="theme" aria-label="Switch colour theme" title="Theme: follows your system">
+      <svg class="i-auto" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.25"/><path class="solid" d="M12 3.75a8.25 8.25 0 0 0 0 16.5z"/></svg>
+      <svg class="i-light" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.4"/><path d="M12 2.2v2.6M12 19.2v2.6M2.2 12h2.6M19.2 12h2.6M5 5l1.9 1.9M17.1 17.1L19 19M19 5l-1.9 1.9M6.9 17.1L5 19"/></svg>
+      <svg class="i-dark" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.3A8.5 8.5 0 1 1 9.7 4a6.8 6.8 0 0 0 10.3 10.3z"/></svg>
+    </button>
+  </div>
+</div>
+
+<main id="main">
+  {{ range $sections }}
+  <section class="section{{ if .muted }} is-muted{{ end }}" id="{{ .id }}" data-section>
+    <div class="wrap">
+      <div class="section-head">
+        <h2>{{ .title }} <span class="tally" data-tally>{{ len .items }}</span></h2>
+        {{ with .blurb }}<p class="blurb">{{ . }}</p>{{ end }}
+      </div>
+
+      <ul class="cards">
+        {{ $sid := .id }}
+        {{ range .items }}
+        <li class="card" data-card
+            data-name="{{ lower .name }}"
+            data-host="{{ .host }}"
+            data-desc="{{ lower .desc }}">
+          <a class="card-link" href="{{ .url }}" rel="noopener nofollow external">
+            <span class="card-name">{{ .name }}</span>
+            {{ with .host }}<span class="card-host">{{ . }}</span>{{ end }}
+          </a>
+          {{ with .desc }}
+            <p class="card-desc">{{ $.Page.RenderString (dict "display" "inline") . }}</p>
+          {{ else }}
+            <p class="card-desc card-desc-empty">No description yet — <a href="{{ site.Params.contributing }}">add one</a>.</p>
+          {{ end }}
+          {{ $in := index $seen (lower .name) | default slice }}
+          {{ if gt (len $in) 1 }}
+            <p class="tags">
+              {{ if and (ne $sid "self-hosted") (in $in "self-hosted") }}<a class="tag" href="#self-hosted">self-hostable</a>{{ end }}
+              {{ if and (ne $sid "hosted") (in $in "hosted") }}<a class="tag" href="#hosted">hosted option</a>{{ end }}
+              {{ if and (ne $sid "deprecated") (in $in "deprecated") }}<a class="tag tag-warn" href="#deprecated">listed as deprecated</a>{{ end }}
+            </p>
+          {{ end }}
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </section>
+  {{ end }}
+
+  <p class="empty" id="empty" hidden>
+    Nothing matches that. <button type="button" id="reset">Show all {{ $total }}</button>
+  </p>
+</main>
+{{ end }}
