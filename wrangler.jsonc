@@ -1,0 +1,26 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "awesome-url-shorteners",
+  "compatibility_date": "2026-08-24",
+
+  // Static-assets-only Worker: no server-side code, Cloudflare serves ./public
+  // straight from its edge. `hugo` writes that directory.
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page"
+  },
+
+  // Requires the tutunak.com zone in this Cloudflare account; wrangler creates
+  // the DNS record on first deploy. Remove this block to deploy to the
+  // *.workers.dev URL only, or to attach the domain from the dashboard instead.
+  "routes": [
+    {
+      "pattern": "shorteners.tutunak.com",
+      "custom_domain": true
+    }
+  ],
+
+  "observability": {
+    "enabled": true
+  }
+}

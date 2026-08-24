@@ -2,6 +2,8 @@
 
 <img src="https://awesome.re/badge.svg" alt="Awesome">
 
+Browsable, searchable version: **[shorteners.tutunak.com](https://shorteners.tutunak.com)** — generated straight from this file.
+
 ## Url Shortener Services
 
 * [bit.ly](https://bitly.com) - Link management platform with branded short links, QR codes and click analytics.
