@@ -43,6 +43,7 @@ Browsable, searchable version: **[shorteners.tutunak.com](https://shorteners.tut
 * [tinu.be](https://tinu.be) - URL shortener with QR code generation and visit counts, on free and paid tiers.
 * [Tiny URL](https://tiny.cc) - Free link management with custom keywords and click statistics.
 * [url1.io](https://url1.io) - Free URL shortener.
+* [urlkub.com](https://urlkub.com) - Free URL shortener with custom aliases, QR codes and click analytics.
 * [urlr.me](https://urlr.me/en) - Reliable URL shortener that provide an API.
 * [v.gd](https://v.gd) - Sister service of is.gd that shows a preview page before redirecting, so visitors see the destination.
 * [vo.la](https://vo.la/) - Korean URL Shortener Service.
