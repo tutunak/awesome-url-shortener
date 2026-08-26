@@ -54,6 +54,7 @@ Browsable, searchable version: **[shorteners.tutunak.com](https://shorteners.tut
 
 ## Self Hosting Opensource
 
+* [Cut](https://github.com/MendyLanda/cut) - A self-hosted URL shortener with one-click deployments and per-link passwords, expiration dates and click limits.
 * [Dub.co](https://dub.co) - Open-source link management infrastructure.
 * [Eastlake](https://github.com/Likenttt/eastlake-cloudflare-worker-short-url) - A short url system based on cloudflare worker.
 * [kes.im](https://kes.im) - No-log URL shortener works on top of Cloudflare Workers.
