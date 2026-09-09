@@ -71,6 +71,7 @@ Browsable, searchable version: **[shorteners.tutunak.com](https://shorteners.tut
 * [Slug](https://github.com/pheralb/slug) - Open-source URL shortener built with the T3 Stack (Next.js, Prisma, Turso).
 * [urls.ac](https://urls.ac) - A simple URL shortener that supports both regular URLs and true fifty-fifty links.
 * [yourls](https://yourls.org) - Your Own URL Shortener, the de facto standard self-hosted PHP shortener, extensible with plugins.
+* [Relinky](https://github.com/artyomxx/relinky) — lightweight, self-hosted, desktop & mobile admin UI, stats, SQLite storage and API for automation.
 
 ## Deprecated Services
 
