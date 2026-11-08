@@ -45,6 +45,7 @@ Browsable, searchable version: **[shorteners.tutunak.com](https://shorteners.tut
 * [url1.io](https://url1.io) - Free URL shortener.
 * [urlkub.com](https://urlkub.com) - Free URL shortener with custom aliases, QR codes and click analytics.
 * [urlr.me](https://urlr.me/en) - Reliable URL shortener that provide an API.
+* [useClick](https://useclick.io) - Privacy-first short links on branded domains with QR codes, link-in-bio pages, cookie-free website analytics and an MCP server.
 * [v.gd](https://v.gd) - Sister service of is.gd that shows a preview page before redirecting, so visitors see the destination.
 * [vo.la](https://vo.la/) - Korean URL Shortener Service.
 * [xUrl.app](https://xurl.app) - Simple Link Shortener - Also offers 📄 Pastes & 📁 File uploads - No Login Required.
