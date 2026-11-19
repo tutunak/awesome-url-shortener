@@ -19,6 +19,7 @@ Browsable, searchable version: **[shorteners.tutunak.com](https://shorteners.tut
 * [kes.im](https://kes.im) - No-log URL shortener works on top of Cloudflare Workers.
 * [KurzeLinks.de](https://kurzelinks.de) - Link shortener based in Germany.
 * [kutt.it](https://kutt.it) - Free modern shortener with custom domains and an API, built on a self-hostable open-source core.
+* [linked.is](https://linked.is) - URL shortener with link-in-bio pages, QR codes, click analytics and custom domains; free plan includes unlimited links.
 * [LinkSplit](https://linksplit.io/url-shortener) - Free branded short links that stay editable, with traffic stats and URL rotation.
 * [Lua.sh](https://www.lua.sh) - Next-generation, and scalable URL shortener designed for modern teams.
 * [name.com](https://www.name.com/branded-url-shortener) - Powered by bli.nk.
